@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Logo + Animation */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+  opacity: 0;
+  transform: scale(0.5);
+  animation: popIn 1s forwards;
+}
+
+@keyframes popIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.logo-text span {
+  opacity: 1; /* Make the text visible immediately */
+  transform: translateY(0); /* Remove the animation effect */
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: row; /* Change to row for same-line text */
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  gap: 5px; /* Add spacing between words */
+}
+
+.logo-text .line1 {
+  color: #5a2d82; /* purple */
+}
+
+.logo-text .line2 {
+  color: #e89a1d; /* orange */
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Navigation */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #5a2d82;
+}
