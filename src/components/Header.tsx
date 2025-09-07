@@ -25,7 +25,7 @@ const Header = () => {
               alt="Avinya TechnoSoft Logo" 
               className="h-12 mr-3 opacity-0 scale-50 animate-[popIn_1s_forwards]"
             />
-            <div className="flex flex-col font-bold text-xl leading-tight">
+            <div className="flex flex-col items-start font-bold text-xl leading-tight">
               <span className="color: #5A2D82 opacity-0 translate-y-5 animate-[fadeUp_1s_forwards] [animation-delay:0.3s]">
                 Avinya
               </span>
