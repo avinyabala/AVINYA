@@ -41,7 +41,7 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Call Us",
-      info: "+91 9876543210",
+      info: "+91 xxxxxxxxxx",
       link: "tel:+919876543210"
     },
     {
