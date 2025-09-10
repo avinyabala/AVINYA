@@ -5,7 +5,7 @@ const About = () => {
   const stats = [
     {
       icon: <Calendar className="w-8 h-8" />,
-      value: "2019",
+      value: "2024",
       label: "Founded",
       description: "Years of Excellence"
     },

@@ -15,7 +15,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo and Company Name */}
@@ -25,13 +25,14 @@ const Header = () => {
               alt="Avinya TechnoSoft Logo" 
               className="h-12 mr-3 opacity-0 scale-50 animate-[popIn_1s_forwards]"
             />
-            <div className="flex flex-col font-bold text-xl leading-tight">
-              <span className="color: #5A2D82 opacity-0 translate-y-5 animate-[fadeUp_1s_forwards] [animation-delay:0.3s]">
+            <div className="flex flex-col items-start font-bold text-xl leading-tight">
+              <span className="text-purple-900 opacity-0 translate-y-5 animate-[fadeUp_1s_forwards] [animation-delay:0.3s]">
                 Avinya
               </span>
-              <span className="color: #E89A1D opacity-0 translate-y-5 animate-[fadeUp_1s_forwards] [animation-delay:0.6s]">
+              <span className="text-orange-500 opacity-0 translate-y-5 animate-[fadeUp_1s_forwards] [animation-delay:0.6s]">
                 TechnoSoft
               </span>
+              
             </div>
           </div>
 
