@@ -32,10 +32,9 @@ const Header = () => {
               <span className="text-orange-500 opacity-0 translate-y-5 animate-[fadeUp_1s_forwards] [animation-delay:0.6s]">
                 TechnoSoft
               </span>
-              
             </div>
           </div>
-
+          
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navItems.map((item, index) => (
@@ -93,5 +92,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;
